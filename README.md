@@ -42,5 +42,4 @@ You can install them using:
 ```bash
 pip install numpy pandas matplotlib yfinance
 
-![image](https://github.com/user-attachments/assets/5d52689d-e5fc-4614-9715-67c74da90999)
 
