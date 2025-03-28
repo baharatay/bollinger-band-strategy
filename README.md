@@ -50,6 +50,7 @@ This project implements a simple **Bollinger Bands-based trading strategy** usin
 ### 4. Drawdown Over Time
 ![Drawdown](myplot4.png)  
 *Drawdown chart showing the peak-to-trough losses during the strategy’s performance period.*
+
 ---
 
 ## Dependencies
