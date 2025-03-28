@@ -29,6 +29,29 @@ This project implements a simple **Bollinger Bands-based trading strategy** usin
 
 ---
 
+### 1. Bollinger Bands Over Time
+![Bollinger Bands](myplot1.png)  
+*Stock price with 20-day moving average and upper/lower Bollinger Bands.*
+
+---
+
+### 2. Buy & Sell Signals
+![Trading Signals](myplot2.png)  
+*Buy signals (green ↑) occur when the price dips below the lower band. Sell signals (red ↓) occur when price exceeds the upper band.*
+
+---
+
+### 3. Strategy vs Buy & Hold Performance
+![Strategy Performance](myplot3.png)  
+*Cumulative returns comparison between the Bollinger Band strategy and passive Buy & Hold.*
+
+---
+
+### 4. Drawdown Over Time
+![Drawdown](myplot4.png)  
+*Drawdown chart showing the peak-to-trough losses during the strategy’s performance period.*
+---
+
 ## Dependencies
 
 - `numpy`
