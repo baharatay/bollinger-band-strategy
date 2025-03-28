@@ -26,7 +26,6 @@ This project implements a simple **Bollinger Bands-based trading strategy** usin
 
 - **Sharpe Ratio**: Measures risk-adjusted returns  
 - **Max Drawdown**: Worst peak-to-trough loss  
-These are common metrics used in evaluating trading strategies.
 
 ---
 
