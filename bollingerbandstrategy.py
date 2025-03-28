@@ -39,6 +39,7 @@ plt.scatter(df.index[df["Sell_Signal"]], df["Close"][df["Sell_Signal"]], label="
 plt.legend()
 plt.title(f"{ticker} Trading Signals")
 plt.show()
+
 # backtesting performance
 df["Daily_Return"] = df["Close"].pct_change()
 df["Position"] = np.where(df["Buy_Signal"], 1, np.where(df["Sell_Signal"], -1, 0))
